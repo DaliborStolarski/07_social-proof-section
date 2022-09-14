@@ -36,7 +36,6 @@ White: hsl(0, 0%, 100%)
 
 */
 
-
 body {
   font-family: 'League Spartan', sans-serif;
   margin: 80px 150px;
@@ -69,6 +68,7 @@ body {
   margin: 20px 0;
 }
 
+
 /* top-right-container  */
 
 .top-right-container {
@@ -91,11 +91,11 @@ body {
 }
 
 .top-right-container-second {
-  margin: 15px 0 15px 35px;
+  margin: 15px 0 15px 55px;
 }
 
 .top-right-container-third {
-  margin-left: 70px;
+  margin-left: 100px;
 }
 
 .icon-star {
@@ -122,11 +122,11 @@ body {
   width: 12%;
 }
 
-h6 {
+h2 {
   font-weight: 700;
 }
 
-h6, p {
+h2, p {
   font-size: 12px;
   padding-left: 10px;
   padding-right: 10px;
@@ -172,7 +172,7 @@ h6, p {
   font-size: 11px;
   text-align: center;
   color: hsl(228, 45%, 44%);
-  margin-top: 15px;
+  margin-top: 60px;
 
 }
 
@@ -224,6 +224,11 @@ h6, p {
   }
 
   /* bottom-container  */
+
+  .bottom-container-first, .bottom-container-second, .bottom-container-third {
+    width: 96%;
+
+  }
 
   .row-bottom {
     height: auto;
